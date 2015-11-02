@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60DAF6E71BE77E2B0010CCB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAF6E61BE77E2B0010CCB1 /* AppDelegate.swift */; };
+		60DAF6E91BE77E2B0010CCB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAF6E81BE77E2B0010CCB1 /* ViewController.swift */; };
+		60DAF6EC1BE77E2B0010CCB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DAF6EA1BE77E2B0010CCB1 /* Main.storyboard */; };
+		60DAF6EE1BE77E2B0010CCB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DAF6ED1BE77E2B0010CCB1 /* Assets.xcassets */; };
+		60DAF6F11BE77E2B0010CCB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DAF6EF1BE77E2B0010CCB1 /* LaunchScreen.storyboard */; };
+		60DAF6FC1BE77E2B0010CCB1 /* AmericanIdiomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAF6FB1BE77E2B0010CCB1 /* AmericanIdiomsTests.swift */; };
+		60DAF7071BE77E2B0010CCB1 /* AmericanIdiomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAF7061BE77E2B0010CCB1 /* AmericanIdiomsUITests.swift */; };
+		60DAF7151BE78EF40010CCB1 /* Idiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAF7141BE78EF40010CCB1 /* Idiom.swift */; };
+		60DAF7171BE796EB0010CCB1 /* IdiomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAF7161BE796EB0010CCB1 /* IdiomManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60DAF6F81BE77E2B0010CCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60DAF6DB1BE77E2B0010CCB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60DAF6E21BE77E2B0010CCB1;
+			remoteInfo = AmericanIdioms;
+		};
+		60DAF7031BE77E2B0010CCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60DAF6DB1BE77E2B0010CCB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60DAF6E21BE77E2B0010CCB1;
+			remoteInfo = AmericanIdioms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60DAF6E31BE77E2B0010CCB1 /* AmericanIdioms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmericanIdioms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DAF6E61BE77E2B0010CCB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60DAF6E81BE77E2B0010CCB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60DAF6EB1BE77E2B0010CCB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60DAF6ED1BE77E2B0010CCB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60DAF6F01BE77E2B0010CCB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60DAF6F21BE77E2B0010CCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DAF6F71BE77E2B0010CCB1 /* AmericanIdiomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmericanIdiomsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DAF6FB1BE77E2B0010CCB1 /* AmericanIdiomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanIdiomsTests.swift; sourceTree = "<group>"; };
+		60DAF6FD1BE77E2B0010CCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DAF7021BE77E2B0010CCB1 /* AmericanIdiomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmericanIdiomsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DAF7061BE77E2B0010CCB1 /* AmericanIdiomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanIdiomsUITests.swift; sourceTree = "<group>"; };
+		60DAF7081BE77E2B0010CCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DAF7141BE78EF40010CCB1 /* Idiom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Idiom.swift; sourceTree = "<group>"; };
+		60DAF7161BE796EB0010CCB1 /* IdiomManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdiomManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60DAF6E01BE77E2B0010CCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DAF6F41BE77E2B0010CCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DAF6FF1BE77E2B0010CCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60DAF6DA1BE77E2B0010CCB1 = {
+			isa = PBXGroup;
+			children = (
+				60DAF6E51BE77E2B0010CCB1 /* AmericanIdioms */,
+				60DAF6FA1BE77E2B0010CCB1 /* AmericanIdiomsTests */,
+				60DAF7051BE77E2B0010CCB1 /* AmericanIdiomsUITests */,
+				60DAF6E41BE77E2B0010CCB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60DAF6E41BE77E2B0010CCB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60DAF6E31BE77E2B0010CCB1 /* AmericanIdioms.app */,
+				60DAF6F71BE77E2B0010CCB1 /* AmericanIdiomsTests.xctest */,
+				60DAF7021BE77E2B0010CCB1 /* AmericanIdiomsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60DAF6E51BE77E2B0010CCB1 /* AmericanIdioms */ = {
+			isa = PBXGroup;
+			children = (
+				60DAF6E61BE77E2B0010CCB1 /* AppDelegate.swift */,
+				60DAF6E81BE77E2B0010CCB1 /* ViewController.swift */,
+				60DAF6EA1BE77E2B0010CCB1 /* Main.storyboard */,
+				60DAF6ED1BE77E2B0010CCB1 /* Assets.xcassets */,
+				60DAF6EF1BE77E2B0010CCB1 /* LaunchScreen.storyboard */,
+				60DAF6F21BE77E2B0010CCB1 /* Info.plist */,
+				60DAF7141BE78EF40010CCB1 /* Idiom.swift */,
+				60DAF7161BE796EB0010CCB1 /* IdiomManager.swift */,
+			);
+			path = AmericanIdioms;
+			sourceTree = "<group>";
+		};
+		60DAF6FA1BE77E2B0010CCB1 /* AmericanIdiomsTests */ = {
+			isa = PBXGroup;
+			children = (
+				60DAF6FB1BE77E2B0010CCB1 /* AmericanIdiomsTests.swift */,
+				60DAF6FD1BE77E2B0010CCB1 /* Info.plist */,
+			);
+			path = AmericanIdiomsTests;
+			sourceTree = "<group>";
+		};
+		60DAF7051BE77E2B0010CCB1 /* AmericanIdiomsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60DAF7061BE77E2B0010CCB1 /* AmericanIdiomsUITests.swift */,
+				60DAF7081BE77E2B0010CCB1 /* Info.plist */,
+			);
+			path = AmericanIdiomsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60DAF6E21BE77E2B0010CCB1 /* AmericanIdioms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DAF70B1BE77E2B0010CCB1 /* Build configuration list for PBXNativeTarget "AmericanIdioms" */;
+			buildPhases = (
+				60DAF6DF1BE77E2B0010CCB1 /* Sources */,
+				60DAF6E01BE77E2B0010CCB1 /* Frameworks */,
+				60DAF6E11BE77E2B0010CCB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmericanIdioms;
+			productName = AmericanIdioms;
+			productReference = 60DAF6E31BE77E2B0010CCB1 /* AmericanIdioms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60DAF6F61BE77E2B0010CCB1 /* AmericanIdiomsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DAF70E1BE77E2B0010CCB1 /* Build configuration list for PBXNativeTarget "AmericanIdiomsTests" */;
+			buildPhases = (
+				60DAF6F31BE77E2B0010CCB1 /* Sources */,
+				60DAF6F41BE77E2B0010CCB1 /* Frameworks */,
+				60DAF6F51BE77E2B0010CCB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60DAF6F91BE77E2B0010CCB1 /* PBXTargetDependency */,
+			);
+			name = AmericanIdiomsTests;
+			productName = AmericanIdiomsTests;
+			productReference = 60DAF6F71BE77E2B0010CCB1 /* AmericanIdiomsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60DAF7011BE77E2B0010CCB1 /* AmericanIdiomsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DAF7111BE77E2B0010CCB1 /* Build configuration list for PBXNativeTarget "AmericanIdiomsUITests" */;
+			buildPhases = (
+				60DAF6FE1BE77E2B0010CCB1 /* Sources */,
+				60DAF6FF1BE77E2B0010CCB1 /* Frameworks */,
+				60DAF7001BE77E2B0010CCB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60DAF7041BE77E2B0010CCB1 /* PBXTargetDependency */,
+			);
+			name = AmericanIdiomsUITests;
+			productName = AmericanIdiomsUITests;
+			productReference = 60DAF7021BE77E2B0010CCB1 /* AmericanIdiomsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60DAF6DB1BE77E2B0010CCB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tat Sean Pang";
+				TargetAttributes = {
+					60DAF6E21BE77E2B0010CCB1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = WHTN4Z4955;
+					};
+					60DAF6F61BE77E2B0010CCB1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = WHTN4Z4955;
+						TestTargetID = 60DAF6E21BE77E2B0010CCB1;
+					};
+					60DAF7011BE77E2B0010CCB1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = WHTN4Z4955;
+						TestTargetID = 60DAF6E21BE77E2B0010CCB1;
+					};
+				};
+			};
+			buildConfigurationList = 60DAF6DE1BE77E2B0010CCB1 /* Build configuration list for PBXProject "AmericanIdioms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60DAF6DA1BE77E2B0010CCB1;
+			productRefGroup = 60DAF6E41BE77E2B0010CCB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60DAF6E21BE77E2B0010CCB1 /* AmericanIdioms */,
+				60DAF6F61BE77E2B0010CCB1 /* AmericanIdiomsTests */,
+				60DAF7011BE77E2B0010CCB1 /* AmericanIdiomsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60DAF6E11BE77E2B0010CCB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DAF6F11BE77E2B0010CCB1 /* LaunchScreen.storyboard in Resources */,
+				60DAF6EE1BE77E2B0010CCB1 /* Assets.xcassets in Resources */,
+				60DAF6EC1BE77E2B0010CCB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DAF6F51BE77E2B0010CCB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DAF7001BE77E2B0010CCB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60DAF6DF1BE77E2B0010CCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DAF7151BE78EF40010CCB1 /* Idiom.swift in Sources */,
+				60DAF6E91BE77E2B0010CCB1 /* ViewController.swift in Sources */,
+				60DAF7171BE796EB0010CCB1 /* IdiomManager.swift in Sources */,
+				60DAF6E71BE77E2B0010CCB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DAF6F31BE77E2B0010CCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DAF6FC1BE77E2B0010CCB1 /* AmericanIdiomsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DAF6FE1BE77E2B0010CCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DAF7071BE77E2B0010CCB1 /* AmericanIdiomsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60DAF6F91BE77E2B0010CCB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60DAF6E21BE77E2B0010CCB1 /* AmericanIdioms */;
+			targetProxy = 60DAF6F81BE77E2B0010CCB1 /* PBXContainerItemProxy */;
+		};
+		60DAF7041BE77E2B0010CCB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60DAF6E21BE77E2B0010CCB1 /* AmericanIdioms */;
+			targetProxy = 60DAF7031BE77E2B0010CCB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60DAF6EA1BE77E2B0010CCB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DAF6EB1BE77E2B0010CCB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60DAF6EF1BE77E2B0010CCB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DAF6F01BE77E2B0010CCB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60DAF7091BE77E2B0010CCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60DAF70A1BE77E2B0010CCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60DAF70C1BE77E2B0010CCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmericanIdioms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.AmericanIdioms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60DAF70D1BE77E2B0010CCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmericanIdioms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.AmericanIdioms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60DAF70F1BE77E2B0010CCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmericanIdiomsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.AmericanIdiomsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmericanIdioms.app/AmericanIdioms";
+			};
+			name = Debug;
+		};
+		60DAF7101BE77E2B0010CCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmericanIdiomsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.AmericanIdiomsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmericanIdioms.app/AmericanIdioms";
+			};
+			name = Release;
+		};
+		60DAF7121BE77E2B0010CCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmericanIdiomsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.AmericanIdiomsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AmericanIdioms;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		60DAF7131BE77E2B0010CCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmericanIdiomsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.AmericanIdiomsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AmericanIdioms;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60DAF6DE1BE77E2B0010CCB1 /* Build configuration list for PBXProject "AmericanIdioms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF7091BE77E2B0010CCB1 /* Debug */,
+				60DAF70A1BE77E2B0010CCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60DAF70B1BE77E2B0010CCB1 /* Build configuration list for PBXNativeTarget "AmericanIdioms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF70C1BE77E2B0010CCB1 /* Debug */,
+				60DAF70D1BE77E2B0010CCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60DAF70E1BE77E2B0010CCB1 /* Build configuration list for PBXNativeTarget "AmericanIdiomsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF70F1BE77E2B0010CCB1 /* Debug */,
+				60DAF7101BE77E2B0010CCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60DAF7111BE77E2B0010CCB1 /* Build configuration list for PBXNativeTarget "AmericanIdiomsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF7121BE77E2B0010CCB1 /* Debug */,
+				60DAF7131BE77E2B0010CCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60DAF6DB1BE77E2B0010CCB1 /* Project object */;
+}
