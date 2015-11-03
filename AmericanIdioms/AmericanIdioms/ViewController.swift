@@ -99,11 +99,12 @@ class ViewController: UIViewController {
     
     
     @IBAction func sliderValueChanged(sender: UISlider) {
-        let index = Int(sender.value)
+        let index = Int(sender.value * 2)
+        print (index)
         
-        lblIdiom.text = idioms[index].Idiom
-        lblDefinition.text = idioms[index].Definition
-        lblSentence.text = idioms[index].Sentence
+//        lblIdiom.text = idioms[index].Idiom
+//        lblDefinition.text = idioms[index].Definition
+//        lblSentence.text = idioms[index].Sentence
     }
 }
 
