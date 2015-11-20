@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601BC66F1BFCACA90061062C /* ClassRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601BC66E1BFCACA90061062C /* ClassRoom.swift */; };
+		601BC6711BFCACBB0061062C /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601BC6701BFCACBB0061062C /* Teacher.swift */; };
+		601BC6731BFCACC60061062C /* Kid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601BC6721BFCACC60061062C /* Kid.swift */; };
+		601BC6771BFCAD010061062C /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601BC6761BFCAD010061062C /* Activity.swift */; };
 		60F5A3C71BF9287D0026E4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5A3C61BF9287D0026E4D9 /* AppDelegate.swift */; };
 		60F5A3C91BF9287D0026E4D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5A3C81BF9287D0026E4D9 /* ViewController.swift */; };
 		60F5A3CC1BF9287D0026E4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F5A3CA1BF9287D0026E4D9 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601BC66E1BFCACA90061062C /* ClassRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassRoom.swift; sourceTree = "<group>"; };
+		601BC6701BFCACBB0061062C /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		601BC6721BFCACC60061062C /* Kid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kid.swift; sourceTree = "<group>"; };
+		601BC6761BFCAD010061062C /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		60F5A3C31BF9287D0026E4D9 /* LittleHumanScholars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleHumanScholars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F5A3C61BF9287D0026E4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F5A3C81BF9287D0026E4D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		601BC66D1BFCAC710061062C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				601BC66E1BFCACA90061062C /* ClassRoom.swift */,
+				601BC6701BFCACBB0061062C /* Teacher.swift */,
+				601BC6721BFCACC60061062C /* Kid.swift */,
+				601BC6761BFCAD010061062C /* Activity.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		60F5A3BA1BF9287D0026E4D9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +116,7 @@
 		60F5A3C51BF9287D0026E4D9 /* LittleHumanScholars */ = {
 			isa = PBXGroup;
 			children = (
+				601BC66D1BFCAC710061062C /* Model */,
 				60F5A3C61BF9287D0026E4D9 /* AppDelegate.swift */,
 				60F5A3C81BF9287D0026E4D9 /* ViewController.swift */,
 				60F5A3CA1BF9287D0026E4D9 /* Main.storyboard */,
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601BC6711BFCACBB0061062C /* Teacher.swift in Sources */,
+				601BC6731BFCACC60061062C /* Kid.swift in Sources */,
+				601BC6771BFCAD010061062C /* Activity.swift in Sources */,
 				60F5A3C91BF9287D0026E4D9 /* ViewController.swift in Sources */,
 				60F5A3C71BF9287D0026E4D9 /* AppDelegate.swift in Sources */,
+				601BC66F1BFCACA90061062C /* ClassRoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +509,7 @@
 				60F5A3ED1BF9287D0026E4D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60F5A3EE1BF9287D0026E4D9 /* Build configuration list for PBXNativeTarget "LittleHumanScholarsTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +518,7 @@
 				60F5A3F01BF9287D0026E4D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60F5A3F11BF9287D0026E4D9 /* Build configuration list for PBXNativeTarget "LittleHumanScholarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +527,7 @@
 				60F5A3F31BF9287D0026E4D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
