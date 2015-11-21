@@ -14,6 +14,14 @@
 		601FFE861BFF2F9D005D0FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601FFE841BFF2F9D005D0FB8 /* LaunchScreen.storyboard */; };
 		601FFE911BFF2F9D005D0FB8 /* LittleScholarsTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FFE901BFF2F9D005D0FB8 /* LittleScholarsTrackerTests.swift */; };
 		601FFE9C1BFF2F9D005D0FB8 /* LittleScholarsTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FFE9B1BFF2F9D005D0FB8 /* LittleScholarsTrackerUITests.swift */; };
+		60506EB81BFFB8A00026093B /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EB71BFFB8A00026093B /* Classroom.swift */; };
+		60506EBA1BFFB9360026093B /* Kid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EB91BFFB9360026093B /* Kid.swift */; };
+		60506EBC1BFFB9410026093B /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EBB1BFFB9410026093B /* Teacher.swift */; };
+		60506EBE1BFFB9CB0026093B /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EBD1BFFB9CB0026093B /* School.swift */; };
+		60506EC01BFFB9E10026093B /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EBF1BFFB9E10026093B /* Activity.swift */; };
+		60506EC21BFFC1780026093B /* ClassroomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC11BFFC1780026093B /* ClassroomListViewController.swift */; };
+		60506EC71BFFD59C0026093B /* TeacherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC61BFFD59C0026093B /* TeacherTableViewCell.swift */; };
+		60506EC91BFFDB470026093B /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC81BFFDB470026093B /* TeacherListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		601FFE971BFF2F9D005D0FB8 /* LittleScholarsTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleScholarsTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		601FFE9B1BFF2F9D005D0FB8 /* LittleScholarsTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleScholarsTrackerUITests.swift; sourceTree = "<group>"; };
 		601FFE9D1BFF2F9D005D0FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60506EB71BFFB8A00026093B /* Classroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
+		60506EB91BFFB9360026093B /* Kid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kid.swift; sourceTree = "<group>"; };
+		60506EBB1BFFB9410026093B /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		60506EBD1BFFB9CB0026093B /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		60506EBF1BFFB9E10026093B /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		60506EC11BFFC1780026093B /* ClassroomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomListViewController.swift; sourceTree = "<group>"; };
+		60506EC61BFFD59C0026093B /* TeacherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherTableViewCell.swift; sourceTree = "<group>"; };
+		60506EC81BFFDB470026093B /* TeacherListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +113,16 @@
 		601FFE7A1BFF2F9C005D0FB8 /* LittleScholarsTracker */ = {
 			isa = PBXGroup;
 			children = (
+				60506EC31BFFD5060026093B /* CustomControls */,
+				60506EB61BFFB8920026093B /* Model */,
 				601FFE7B1BFF2F9D005D0FB8 /* AppDelegate.swift */,
 				601FFE7D1BFF2F9D005D0FB8 /* ViewController.swift */,
 				601FFE7F1BFF2F9D005D0FB8 /* Main.storyboard */,
 				601FFE821BFF2F9D005D0FB8 /* Assets.xcassets */,
 				601FFE841BFF2F9D005D0FB8 /* LaunchScreen.storyboard */,
 				601FFE871BFF2F9D005D0FB8 /* Info.plist */,
+				60506EC11BFFC1780026093B /* ClassroomListViewController.swift */,
+				60506EC81BFFDB470026093B /* TeacherListViewController.swift */,
 			);
 			path = LittleScholarsTracker;
 			sourceTree = "<group>";
@@ -123,6 +143,26 @@
 				601FFE9D1BFF2F9D005D0FB8 /* Info.plist */,
 			);
 			path = LittleScholarsTrackerUITests;
+			sourceTree = "<group>";
+		};
+		60506EB61BFFB8920026093B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60506EB71BFFB8A00026093B /* Classroom.swift */,
+				60506EB91BFFB9360026093B /* Kid.swift */,
+				60506EBB1BFFB9410026093B /* Teacher.swift */,
+				60506EBD1BFFB9CB0026093B /* School.swift */,
+				60506EBF1BFFB9E10026093B /* Activity.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		60506EC31BFFD5060026093B /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				60506EC61BFFD59C0026093B /* TeacherTableViewCell.swift */,
+			);
+			name = CustomControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60506EBA1BFFB9360026093B /* Kid.swift in Sources */,
+				60506EC91BFFDB470026093B /* TeacherListViewController.swift in Sources */,
+				60506EBE1BFFB9CB0026093B /* School.swift in Sources */,
+				60506EBC1BFFB9410026093B /* Teacher.swift in Sources */,
 				601FFE7E1BFF2F9D005D0FB8 /* ViewController.swift in Sources */,
 				601FFE7C1BFF2F9D005D0FB8 /* AppDelegate.swift in Sources */,
+				60506EB81BFFB8A00026093B /* Classroom.swift in Sources */,
+				60506EC71BFFD59C0026093B /* TeacherTableViewCell.swift in Sources */,
+				60506EC21BFFC1780026093B /* ClassroomListViewController.swift in Sources */,
+				60506EC01BFFB9E10026093B /* Activity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +533,7 @@
 				601FFEA21BFF2F9D005D0FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		601FFEA31BFF2F9D005D0FB8 /* Build configuration list for PBXNativeTarget "LittleScholarsTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +542,7 @@
 				601FFEA51BFF2F9D005D0FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		601FFEA61BFF2F9D005D0FB8 /* Build configuration list for PBXNativeTarget "LittleScholarsTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +551,7 @@
 				601FFEA81BFF2F9D005D0FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
