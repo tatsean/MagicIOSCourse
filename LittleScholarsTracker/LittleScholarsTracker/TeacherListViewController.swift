@@ -37,19 +37,19 @@ class TeacherListViewController: UIViewController {
     
     func loadTeachers()
     {
-        let teacherImage1 = UIImage(named: "teacher-1")
-        let teacher1 = Teacher(fullName: "Alice", mobileNumber: "012-3456754")
-        teacher1.photo = teacherImage1
-        
-        let teacherImage2 = UIImage(named: "teacher-2")
-        let teacher2 = Teacher(fullName: "Kelvin", mobileNumber:"012-6573899")
-        teacher2.photo = teacherImage2
-        
-        let teacherImage3 = UIImage(named: "teacher-3")
-        let teacher3 = Teacher(fullName: "Siong", mobileNumber:"012-6778890")
-        teacher3.photo = teacherImage3
-        
-        teachers += [teacher1, teacher2, teacher3]
+//        let teacherImage1 = UIImage(named: "teacher-1")
+//        let teacher1 = Teacher(fullName: "Alice", mobileNumber: "012-3456754")
+//        teacher1.photo = teacherImage1
+//        
+//        let teacherImage2 = UIImage(named: "teacher-2")
+//        let teacher2 = Teacher(fullName: "Kelvin", mobileNumber:"012-6573899")
+//        teacher2.photo = teacherImage2
+//        
+//        let teacherImage3 = UIImage(named: "teacher-3")
+//        let teacher3 = Teacher(fullName: "Siong", mobileNumber:"012-6778890")
+//        teacher3.photo = teacherImage3
+//        
+//        teachers += [teacher1, teacher2, teacher3]
     }
 
 }

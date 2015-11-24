@@ -26,8 +26,13 @@ class ClassroomModelTests: XCTestCase {
     {
         let classroom = Classroom(classroomName: "Kindness", ageGroup: 4)
         let classroomManager = ClassroomManager()
+        
+        let countBeforeAdd = classroomManager.listClassRoom().count
+        
         let addResult = classroomManager.addUpdateClassroom(classroom!)
-        classroomManager.classrooms
+        
+        XCTAssertGreaterThan(classroomManager.classrooms.count, countBeforeAdd)
+        
         XCTAssertEqual(addResult, true)
     }
     
@@ -39,5 +44,16 @@ class ClassroomModelTests: XCTestCase {
         // Failure cases.
         let classRoomWithNoName = Classroom(classroomName: "", ageGroup: 4)
         XCTAssertNil(classRoomWithNoName, "Empty name is invalid")
+    }
+    
+    func testClassroomDelete()
+    {
+        let classroomManager = ClassroomManager()
+        let countBeforeDelete = classroomManager.listClassRoom().count
+        let deleteResult = classroomManager.deleteClassroom("Faith")
+        
+        XCTAssertEqual(deleteResult, true)
+        
+        XCTAssertLessThan(countBeforeDelete, classroomManager.classrooms.count)
     }
 }

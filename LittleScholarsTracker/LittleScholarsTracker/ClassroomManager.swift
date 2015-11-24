@@ -10,7 +10,7 @@ import Foundation
 
 class ClassroomManager
 {
-    var classrooms: [Classroom] = [Classroom]()
+    var classrooms: [Classroom?] = [Classroom?]()
     
     func addUpdateClassroom(classroom: Classroom) -> Bool
     {
@@ -24,7 +24,7 @@ class ClassroomManager
     {
         // TODO: delete classroom from data storage
         //
-        if let index = classrooms.indexOf({$0.classroomName == classroomName})
+        if let index = classrooms.indexOf({$0?.classroomName == classroomName})
         {
             classrooms.removeAtIndex(index)
         }
@@ -36,17 +36,17 @@ class ClassroomManager
         return true;
     }
 
-    func listClassRoom() -> [Classroom]
+    func listClassRoom() -> [Classroom?]
     {
         // TODO: list class room 
         //
         // var classrooms = [Classroom]()
         
-        let classRoom1 = Classroom(classroomName: "", ageGroup: 4)
+        let classRoom1 = Classroom(classroomName: "Kindness", ageGroup: 4)
         let classRoom2 = Classroom(classroomName: "Faith", ageGroup: 5)
         let classRoom3 = Classroom(classroomName: "Honesty", ageGroup: 6)
         
-        classrooms += [classRoom1!, classRoom2!, classRoom3!]
+        classrooms += [classRoom1, classRoom2, classRoom3]
         
         return classrooms
     }
@@ -55,7 +55,7 @@ class ClassroomManager
         // TODO: get single class room data
         //
         // var classrooms = [Classroom]()
-        if let index = classrooms.indexOf({$0.classroomName == classRoomName})
+        if let index = classrooms.indexOf({$0?.classroomName == classRoomName})
         {
             return classrooms[index]
         }

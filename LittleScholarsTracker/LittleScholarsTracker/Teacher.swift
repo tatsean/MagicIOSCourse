@@ -16,9 +16,14 @@ class Teacher {
     var classRooms: [Classroom]?
     var photo: UIImage?
     
-    init (fullName: String, mobileNumber: String)
+    init? (fullName: String, mobileNumber: String)
     {
         self.fullName = fullName
         self.mobileNumber = mobileNumber
+        
+        if (fullName.isEmpty || mobileNumber.isEmpty)
+        {
+            return nil
+        }
     }
 }

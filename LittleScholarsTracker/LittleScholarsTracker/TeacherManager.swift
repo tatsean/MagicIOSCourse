@@ -10,23 +10,33 @@ import Foundation
 
 class TeacherManager
 {
-    var teachers: [Teacher] = [Teacher]()
+    var teachers: [Teacher?] = [Teacher?]()
     
     func addUpdateTeacher(teacher: Teacher) -> Bool
     {
         // TODO: add teacher to any data storage
         //
+        teachers.append(teacher)
         return true;
     }
     
     func deleteTeacher(teacherName: String) -> Bool
     {
-        // TODO: delete teacher from data storage
+        // TODO: delete classroom from data storage
         //
+        if let index = teachers.indexOf({$0?.fullName == teacherName})
+        {
+            teachers.removeAtIndex(index)
+        }
+        else
+        {
+            return false
+        }
+        
         return true;
     }
     
-    func listTeacher() -> [Teacher]
+    func listTeacher() -> [Teacher?]
     {
         // TODO: list class room
         //
@@ -44,9 +54,9 @@ class TeacherManager
     {
         // TODO: get single teacher info
         //
-        let teachers = [Teacher]()
+        // let teachers = [Teacher]()
         
-        if let index = teachers.indexOf({$0.fullName == teacherName})
+        if let index = teachers.indexOf({$0?.fullName == teacherName})
         {
             return teachers[index]
         }
