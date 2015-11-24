@@ -7,12 +7,35 @@
 //
 
 import UIKit
+import Parse
 
 class ClassroomListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let image = UIImage(named: "Teacher")
+        let imageData = UIImagePNGRepresentation(image!)
+        
+        let file = PFFile(name: "Teacher1.png", data: imageData!)
+        
+        let classRoom = PFObject(className: "Classroom")
+        // classRoom["foo"] = "bar"
+        classRoom.setObject("Kindness", forKey: "ClassRoomName")
+        classRoom.setObject("5", forKey: "AgeGroup")
+        classRoom.setObject("Great Job", forKey: "Quote")
+        classRoom.setObject(file!, forKey: "ClassroomImage")
+
+        classRoom.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            if (success)
+            {
+                print("Successful!!!")
+            }
+            else
+            {
+                print("Failed!!!")
+            }
+        }
         // Do any additional setup after loading the view.
     }
 

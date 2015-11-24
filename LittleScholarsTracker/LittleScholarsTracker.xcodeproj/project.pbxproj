@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601295D51C001ACD006994A9 /* ClassroomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295D41C001ACD006994A9 /* ClassroomManager.swift */; };
+		601295D91C001AEE006994A9 /* TeacherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295D81C001AEE006994A9 /* TeacherManager.swift */; };
+		601295DB1C002493006994A9 /* KidManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295DA1C002493006994A9 /* KidManager.swift */; };
+		601295DD1C004977006994A9 /* ClassroomModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295DC1C004977006994A9 /* ClassroomModelTests.swift */; };
 		601FFE7C1BFF2F9D005D0FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FFE7B1BFF2F9D005D0FB8 /* AppDelegate.swift */; };
 		601FFE7E1BFF2F9D005D0FB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FFE7D1BFF2F9D005D0FB8 /* ViewController.swift */; };
 		601FFE811BFF2F9D005D0FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601FFE7F1BFF2F9D005D0FB8 /* Main.storyboard */; };
@@ -15,13 +19,25 @@
 		601FFE911BFF2F9D005D0FB8 /* LittleScholarsTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FFE901BFF2F9D005D0FB8 /* LittleScholarsTrackerTests.swift */; };
 		601FFE9C1BFF2F9D005D0FB8 /* LittleScholarsTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601FFE9B1BFF2F9D005D0FB8 /* LittleScholarsTrackerUITests.swift */; };
 		60506EB81BFFB8A00026093B /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EB71BFFB8A00026093B /* Classroom.swift */; };
-		60506EBA1BFFB9360026093B /* Kid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EB91BFFB9360026093B /* Kid.swift */; };
+		60506EBA1BFFB9360026093B /* Scholar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EB91BFFB9360026093B /* Scholar.swift */; };
 		60506EBC1BFFB9410026093B /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EBB1BFFB9410026093B /* Teacher.swift */; };
 		60506EBE1BFFB9CB0026093B /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EBD1BFFB9CB0026093B /* School.swift */; };
 		60506EC01BFFB9E10026093B /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EBF1BFFB9E10026093B /* Activity.swift */; };
 		60506EC21BFFC1780026093B /* ClassroomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC11BFFC1780026093B /* ClassroomListViewController.swift */; };
 		60506EC71BFFD59C0026093B /* TeacherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC61BFFD59C0026093B /* TeacherTableViewCell.swift */; };
 		60506EC91BFFDB470026093B /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC81BFFDB470026093B /* TeacherListViewController.swift */; };
+		60FFAF2D1C0118EE002305E9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF2C1C0118EE002305E9 /* Parse.framework */; };
+		60FFAF2F1C011922002305E9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF2E1C011922002305E9 /* Bolts.framework */; };
+		60FFAF311C011A1D002305E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF301C011A1D002305E9 /* AudioToolbox.framework */; };
+		60FFAF331C011A28002305E9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF321C011A28002305E9 /* CFNetwork.framework */; };
+		60FFAF351C011A34002305E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF341C011A34002305E9 /* CoreGraphics.framework */; };
+		60FFAF371C011A3D002305E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF361C011A3D002305E9 /* CoreLocation.framework */; };
+		60FFAF391C011A7F002305E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF381C011A7F002305E9 /* QuartzCore.framework */; };
+		60FFAF3B1C011A87002305E9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF3A1C011A87002305E9 /* Security.framework */; };
+		60FFAF3D1C011A8C002305E9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF3C1C011A8C002305E9 /* StoreKit.framework */; };
+		60FFAF3F1C011A99002305E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF3E1C011A99002305E9 /* SystemConfiguration.framework */; };
+		60FFAF411C011AA6002305E9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF401C011AA6002305E9 /* libz.tbd */; };
+		60FFAF431C011AB3002305E9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF421C011AB3002305E9 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601295D41C001ACD006994A9 /* ClassroomManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomManager.swift; sourceTree = "<group>"; };
+		601295D81C001AEE006994A9 /* TeacherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherManager.swift; sourceTree = "<group>"; };
+		601295DA1C002493006994A9 /* KidManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidManager.swift; sourceTree = "<group>"; };
+		601295DC1C004977006994A9 /* ClassroomModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomModelTests.swift; sourceTree = "<group>"; };
 		601FFE781BFF2F9C005D0FB8 /* LittleScholarsTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleScholarsTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		601FFE7B1BFF2F9D005D0FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		601FFE7D1BFF2F9D005D0FB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,13 +76,25 @@
 		601FFE9B1BFF2F9D005D0FB8 /* LittleScholarsTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleScholarsTrackerUITests.swift; sourceTree = "<group>"; };
 		601FFE9D1BFF2F9D005D0FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60506EB71BFFB8A00026093B /* Classroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
-		60506EB91BFFB9360026093B /* Kid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kid.swift; sourceTree = "<group>"; };
+		60506EB91BFFB9360026093B /* Scholar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scholar.swift; sourceTree = "<group>"; };
 		60506EBB1BFFB9410026093B /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		60506EBD1BFFB9CB0026093B /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
 		60506EBF1BFFB9E10026093B /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		60506EC11BFFC1780026093B /* ClassroomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomListViewController.swift; sourceTree = "<group>"; };
 		60506EC61BFFD59C0026093B /* TeacherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherTableViewCell.swift; sourceTree = "<group>"; };
 		60506EC81BFFDB470026093B /* TeacherListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherListViewController.swift; sourceTree = "<group>"; };
+		60FFAF2C1C0118EE002305E9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		60FFAF2E1C011922002305E9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		60FFAF301C011A1D002305E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		60FFAF321C011A28002305E9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		60FFAF341C011A34002305E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60FFAF361C011A3D002305E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		60FFAF381C011A7F002305E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		60FFAF3A1C011A87002305E9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		60FFAF3C1C011A8C002305E9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		60FFAF3E1C011A99002305E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60FFAF401C011AA6002305E9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		60FFAF421C011AB3002305E9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +102,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60FFAF431C011AB3002305E9 /* libsqlite3.tbd in Frameworks */,
+				60FFAF411C011AA6002305E9 /* libz.tbd in Frameworks */,
+				60FFAF3F1C011A99002305E9 /* SystemConfiguration.framework in Frameworks */,
+				60FFAF3D1C011A8C002305E9 /* StoreKit.framework in Frameworks */,
+				60FFAF3B1C011A87002305E9 /* Security.framework in Frameworks */,
+				60FFAF391C011A7F002305E9 /* QuartzCore.framework in Frameworks */,
+				60FFAF371C011A3D002305E9 /* CoreLocation.framework in Frameworks */,
+				60FFAF351C011A34002305E9 /* CoreGraphics.framework in Frameworks */,
+				60FFAF331C011A28002305E9 /* CFNetwork.framework in Frameworks */,
+				60FFAF311C011A1D002305E9 /* AudioToolbox.framework in Frameworks */,
+				60FFAF2D1C0118EE002305E9 /* Parse.framework in Frameworks */,
+				60FFAF2F1C011922002305E9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +137,7 @@
 		601FFE6F1BFF2F9C005D0FB8 = {
 			isa = PBXGroup;
 			children = (
+				60FFAF441C011BEC002305E9 /* Frameworks */,
 				601FFE7A1BFF2F9C005D0FB8 /* LittleScholarsTracker */,
 				601FFE8F1BFF2F9D005D0FB8 /* LittleScholarsTrackerTests */,
 				601FFE9A1BFF2F9D005D0FB8 /* LittleScholarsTrackerUITests */,
@@ -132,6 +177,7 @@
 			children = (
 				601FFE901BFF2F9D005D0FB8 /* LittleScholarsTrackerTests.swift */,
 				601FFE921BFF2F9D005D0FB8 /* Info.plist */,
+				601295DC1C004977006994A9 /* ClassroomModelTests.swift */,
 			);
 			path = LittleScholarsTrackerTests;
 			sourceTree = "<group>";
@@ -149,10 +195,13 @@
 			isa = PBXGroup;
 			children = (
 				60506EB71BFFB8A00026093B /* Classroom.swift */,
-				60506EB91BFFB9360026093B /* Kid.swift */,
+				60506EB91BFFB9360026093B /* Scholar.swift */,
 				60506EBB1BFFB9410026093B /* Teacher.swift */,
 				60506EBD1BFFB9CB0026093B /* School.swift */,
 				60506EBF1BFFB9E10026093B /* Activity.swift */,
+				601295D41C001ACD006994A9 /* ClassroomManager.swift */,
+				601295D81C001AEE006994A9 /* TeacherManager.swift */,
+				601295DA1C002493006994A9 /* KidManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -163,6 +212,25 @@
 				60506EC61BFFD59C0026093B /* TeacherTableViewCell.swift */,
 			);
 			name = CustomControls;
+			sourceTree = "<group>";
+		};
+		60FFAF441C011BEC002305E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60FFAF401C011AA6002305E9 /* libz.tbd */,
+				60FFAF421C011AB3002305E9 /* libsqlite3.tbd */,
+				60FFAF3E1C011A99002305E9 /* SystemConfiguration.framework */,
+				60FFAF3C1C011A8C002305E9 /* StoreKit.framework */,
+				60FFAF3A1C011A87002305E9 /* Security.framework */,
+				60FFAF381C011A7F002305E9 /* QuartzCore.framework */,
+				60FFAF361C011A3D002305E9 /* CoreLocation.framework */,
+				60FFAF341C011A34002305E9 /* CoreGraphics.framework */,
+				60FFAF321C011A28002305E9 /* CFNetwork.framework */,
+				60FFAF301C011A1D002305E9 /* AudioToolbox.framework */,
+				60FFAF2E1C011922002305E9 /* Bolts.framework */,
+				60FFAF2C1C0118EE002305E9 /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,14 +367,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60506EBA1BFFB9360026093B /* Kid.swift in Sources */,
+				60506EBA1BFFB9360026093B /* Scholar.swift in Sources */,
+				601295D51C001ACD006994A9 /* ClassroomManager.swift in Sources */,
 				60506EC91BFFDB470026093B /* TeacherListViewController.swift in Sources */,
 				60506EBE1BFFB9CB0026093B /* School.swift in Sources */,
 				60506EBC1BFFB9410026093B /* Teacher.swift in Sources */,
 				601FFE7E1BFF2F9D005D0FB8 /* ViewController.swift in Sources */,
 				601FFE7C1BFF2F9D005D0FB8 /* AppDelegate.swift in Sources */,
+				601295D91C001AEE006994A9 /* TeacherManager.swift in Sources */,
 				60506EB81BFFB8A00026093B /* Classroom.swift in Sources */,
 				60506EC71BFFD59C0026093B /* TeacherTableViewCell.swift in Sources */,
+				601295DB1C002493006994A9 /* KidManager.swift in Sources */,
 				60506EC21BFFC1780026093B /* ClassroomListViewController.swift in Sources */,
 				60506EC01BFFB9E10026093B /* Activity.swift in Sources */,
 			);
@@ -317,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				601FFE911BFF2F9D005D0FB8 /* LittleScholarsTrackerTests.swift in Sources */,
+				601295DD1C004977006994A9 /* ClassroomModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +520,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LittleScholarsTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.LittleScholarsTracker;
@@ -459,6 +535,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LittleScholarsTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.LittleScholarsTracker;

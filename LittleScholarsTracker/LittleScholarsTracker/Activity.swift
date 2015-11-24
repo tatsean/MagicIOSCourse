@@ -24,11 +24,13 @@ class KidActivity {
     var notes: String
     var activityDateTime: NSDate
     var photo: UIImage?
+    var studentName: String
     
-    init (activityTypes: KidActivityTypes, notes: String, activityDateTime: NSDate)
+    init (activityTypes: KidActivityTypes, notes: String, activityDateTime: NSDate, studentName: String)
     {
         self.activityTypes = .None
         self.notes = notes
         self.activityDateTime = activityDateTime
+        self.studentName = studentName
     }
 }

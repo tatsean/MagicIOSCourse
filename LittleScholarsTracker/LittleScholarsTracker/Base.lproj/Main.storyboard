@@ -60,7 +60,7 @@
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="xJL-yX-wCj"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brf-2i-kSN">
@@ -73,7 +73,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="zMB-HE-d7I"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teacher-2" translatesAutoresizingMaskIntoConstraints="NO" id="pYs-rn-n1J">
@@ -147,8 +147,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GWF-aP-2yT">
-                                <rect key="frame" x="0.0" y="55" width="600" height="496"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GWF-aP-2yT">
+                                <rect key="frame" x="0.0" y="64" width="600" height="452"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -174,8 +174,8 @@
                         <constraints>
                             <constraint firstItem="GWF-aP-2yT" firstAttribute="leading" secondItem="xW6-A8-tXp" secondAttribute="leadingMargin" constant="-20" id="Kgn-49-jhR"/>
                             <constraint firstItem="GWF-aP-2yT" firstAttribute="trailing" secondItem="xW6-A8-tXp" secondAttribute="trailingMargin" constant="20" id="Sjc-13-y9t"/>
-                            <constraint firstItem="GWF-aP-2yT" firstAttribute="top" secondItem="s6U-5b-1ku" secondAttribute="bottom" constant="35" id="fVs-5K-dkP"/>
-                            <constraint firstItem="lic-y5-NqZ" firstAttribute="top" secondItem="GWF-aP-2yT" secondAttribute="bottom" id="qr7-Vq-gJn"/>
+                            <constraint firstItem="GWF-aP-2yT" firstAttribute="top" secondItem="s6U-5b-1ku" secondAttribute="bottom" id="fVs-5K-dkP"/>
+                            <constraint firstItem="lic-y5-NqZ" firstAttribute="top" secondItem="GWF-aP-2yT" secondAttribute="bottom" constant="35" id="qr7-Vq-gJn"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IPe-Hc-ugV"/>

@@ -7,17 +7,27 @@
 //
 
 import Foundation
+import Parse
 
 class Classroom {
     var classroomName: String
     var ageGroup: Int
     
-    var kids: [Kid]?
+    var scholars: [Scholar]?
     var teachers: [Teacher]?
     
-    init (classroomName: String, ageGroup: Int)
+    init? (classroomName: String, ageGroup: Int)
     {
-        self.classroomName = classroomName
         self.ageGroup = ageGroup
+        self.classroomName = classroomName
+        
+        if classroomName.isEmpty
+        {
+            return nil
+        }
     }
 }
+
+
+//var classroom = Classroom(classroomName: "", ageGroup: 2)
+

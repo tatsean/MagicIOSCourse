@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class Kid {
+class Scholar {
     var fullName: String
     var age: Int
     var photo: UIImage?
@@ -17,7 +17,7 @@ class Kid {
     var parentEmail: String?
     var parentMobile: String
     var classRoom: Classroom?
-    var activities: [KidActivity]?
+    // var activities: [KidActivity]?
     
     init (fullName: String, age: Int, parentName: String, parentEmail: String, parentMobile: String) {
         self.fullName = fullName
@@ -28,10 +28,4 @@ class Kid {
     }
 }
 
-//FullName: String
-//Age: Int
-//ParentName: String
-//ParentEmail: String
-//ParentMobile: String
-//Class: [Class]
-//Activity: [Activity]
+
