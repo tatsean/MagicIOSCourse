@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003301021C0583EC0049B443 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003301001C0583EC0049B443 /* Bolts.framework */; };
+		003301031C0583EC0049B443 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003301011C0583EC0049B443 /* Parse.framework */; };
+		003301051C0584AF0049B443 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003301041C0584AF0049B443 /* ActivityManager.swift */; };
+		003301071C0584EE0049B443 /* AttendanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003301061C0584EE0049B443 /* AttendanceManager.swift */; };
+		003301091C0584F60049B443 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003301081C0584F60049B443 /* Attendance.swift */; };
+		0033010B1C0585090049B443 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0033010A1C0585090049B443 /* Storyboard.storyboard */; };
+		0033010D1C0585E50049B443 /* AttendanceModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033010C1C0585E50049B443 /* AttendanceModelTests.swift */; };
+		0033010F1C0585EC0049B443 /* ActivityModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033010E1C0585EC0049B443 /* ActivityModelTests.swift */; };
 		601295D51C001ACD006994A9 /* ClassroomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295D41C001ACD006994A9 /* ClassroomManager.swift */; };
 		601295D91C001AEE006994A9 /* TeacherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295D81C001AEE006994A9 /* TeacherManager.swift */; };
 		601295DB1C002493006994A9 /* KidManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295DA1C002493006994A9 /* KidManager.swift */; };
@@ -58,6 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003301001C0583EC0049B443 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		003301011C0583EC0049B443 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		003301041C0584AF0049B443 /* ActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		003301061C0584EE0049B443 /* AttendanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceManager.swift; sourceTree = "<group>"; };
+		003301081C0584F60049B443 /* Attendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		0033010A1C0585090049B443 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0033010C1C0585E50049B443 /* AttendanceModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceModelTests.swift; sourceTree = "<group>"; };
+		0033010E1C0585EC0049B443 /* ActivityModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityModelTests.swift; sourceTree = "<group>"; };
 		601295D41C001ACD006994A9 /* ClassroomManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomManager.swift; sourceTree = "<group>"; };
 		601295D81C001AEE006994A9 /* TeacherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherManager.swift; sourceTree = "<group>"; };
 		601295DA1C002493006994A9 /* KidManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidManager.swift; sourceTree = "<group>"; };
@@ -109,8 +125,10 @@
 				60FFAF3B1C011A87002305E9 /* Security.framework in Frameworks */,
 				60FFAF391C011A7F002305E9 /* QuartzCore.framework in Frameworks */,
 				60FFAF371C011A3D002305E9 /* CoreLocation.framework in Frameworks */,
+				003301021C0583EC0049B443 /* Bolts.framework in Frameworks */,
 				60FFAF351C011A34002305E9 /* CoreGraphics.framework in Frameworks */,
 				60FFAF331C011A28002305E9 /* CFNetwork.framework in Frameworks */,
+				003301031C0583EC0049B443 /* Parse.framework in Frameworks */,
 				60FFAF311C011A1D002305E9 /* AudioToolbox.framework in Frameworks */,
 				60FFAF2D1C0118EE002305E9 /* Parse.framework in Frameworks */,
 				60FFAF2F1C011922002305E9 /* Bolts.framework in Frameworks */,
@@ -162,6 +180,7 @@
 				60506EB61BFFB8920026093B /* Model */,
 				601FFE7B1BFF2F9D005D0FB8 /* AppDelegate.swift */,
 				601FFE7D1BFF2F9D005D0FB8 /* ViewController.swift */,
+				0033010A1C0585090049B443 /* Storyboard.storyboard */,
 				601FFE7F1BFF2F9D005D0FB8 /* Main.storyboard */,
 				601FFE821BFF2F9D005D0FB8 /* Assets.xcassets */,
 				601FFE841BFF2F9D005D0FB8 /* LaunchScreen.storyboard */,
@@ -176,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				601FFE901BFF2F9D005D0FB8 /* LittleScholarsTrackerTests.swift */,
+				0033010E1C0585EC0049B443 /* ActivityModelTests.swift */,
+				0033010C1C0585E50049B443 /* AttendanceModelTests.swift */,
 				601FFE921BFF2F9D005D0FB8 /* Info.plist */,
 				601295DC1C004977006994A9 /* ClassroomModelTests.swift */,
 			);
@@ -195,7 +216,10 @@
 			isa = PBXGroup;
 			children = (
 				60506EB71BFFB8A00026093B /* Classroom.swift */,
+				003301061C0584EE0049B443 /* AttendanceManager.swift */,
+				003301041C0584AF0049B443 /* ActivityManager.swift */,
 				60506EB91BFFB9360026093B /* Scholar.swift */,
+				003301081C0584F60049B443 /* Attendance.swift */,
 				60506EBB1BFFB9410026093B /* Teacher.swift */,
 				60506EBD1BFFB9CB0026093B /* School.swift */,
 				60506EBF1BFFB9E10026093B /* Activity.swift */,
@@ -217,6 +241,8 @@
 		60FFAF441C011BEC002305E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				003301001C0583EC0049B443 /* Bolts.framework */,
+				003301011C0583EC0049B443 /* Parse.framework */,
 				60FFAF401C011AA6002305E9 /* libz.tbd */,
 				60FFAF421C011AB3002305E9 /* libsqlite3.tbd */,
 				60FFAF3E1C011A99002305E9 /* SystemConfiguration.framework */,
@@ -341,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				601FFE861BFF2F9D005D0FB8 /* LaunchScreen.storyboard in Resources */,
+				0033010B1C0585090049B443 /* Storyboard.storyboard in Resources */,
 				601FFE831BFF2F9D005D0FB8 /* Assets.xcassets in Resources */,
 				601FFE811BFF2F9D005D0FB8 /* Main.storyboard in Resources */,
 			);
@@ -369,6 +396,7 @@
 			files = (
 				60506EBA1BFFB9360026093B /* Scholar.swift in Sources */,
 				601295D51C001ACD006994A9 /* ClassroomManager.swift in Sources */,
+				003301091C0584F60049B443 /* Attendance.swift in Sources */,
 				60506EC91BFFDB470026093B /* TeacherListViewController.swift in Sources */,
 				60506EBE1BFFB9CB0026093B /* School.swift in Sources */,
 				60506EBC1BFFB9410026093B /* Teacher.swift in Sources */,
@@ -377,7 +405,9 @@
 				601295D91C001AEE006994A9 /* TeacherManager.swift in Sources */,
 				60506EB81BFFB8A00026093B /* Classroom.swift in Sources */,
 				60506EC71BFFD59C0026093B /* TeacherTableViewCell.swift in Sources */,
+				003301051C0584AF0049B443 /* ActivityManager.swift in Sources */,
 				601295DB1C002493006994A9 /* KidManager.swift in Sources */,
+				003301071C0584EE0049B443 /* AttendanceManager.swift in Sources */,
 				60506EC21BFFC1780026093B /* ClassroomListViewController.swift in Sources */,
 				60506EC01BFFB9E10026093B /* Activity.swift in Sources */,
 			);
@@ -387,6 +417,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0033010F1C0585EC0049B443 /* ActivityModelTests.swift in Sources */,
+				0033010D1C0585E50049B443 /* AttendanceModelTests.swift in Sources */,
 				601FFE911BFF2F9D005D0FB8 /* LittleScholarsTrackerTests.swift in Sources */,
 				601295DD1C004977006994A9 /* ClassroomModelTests.swift in Sources */,
 			);

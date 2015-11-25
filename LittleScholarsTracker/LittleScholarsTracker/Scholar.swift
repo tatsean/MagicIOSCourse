@@ -16,6 +16,7 @@ class Scholar {
     var parentName: String
     var parentEmail: String?
     var parentMobile: String
+    var passcode: Int?
     var classRoom: Classroom?
     // var activities: [KidActivity]?
     

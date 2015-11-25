@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-enum KidActivityTypes {
+enum ActivityTypes {
     case None
     case Eat
     case Nap
@@ -19,18 +19,21 @@ enum KidActivityTypes {
     case Incident
 }
 
-class KidActivity {
-    var activityTypes: KidActivityTypes
-    var notes: String
+class Activity {
+    var activityTypes: ActivityTypes
+    var notes: String?
     var activityDateTime: NSDate
     var photo: UIImage?
     var studentName: String
     
-    init (activityTypes: KidActivityTypes, notes: String, activityDateTime: NSDate, studentName: String)
+    init? (activityTypes: ActivityTypes, studentName: String, activityDateTime: NSDate = NSDate())
     {
         self.activityTypes = .None
-        self.notes = notes
         self.activityDateTime = activityDateTime
         self.studentName = studentName
+        
+        if(studentName.isEmpty){
+            return nil
+        }
     }
 }
