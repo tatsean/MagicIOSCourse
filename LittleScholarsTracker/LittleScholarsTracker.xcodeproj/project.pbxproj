@@ -15,6 +15,8 @@
 		0033010B1C0585090049B443 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0033010A1C0585090049B443 /* Storyboard.storyboard */; };
 		0033010D1C0585E50049B443 /* AttendanceModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033010C1C0585E50049B443 /* AttendanceModelTests.swift */; };
 		0033010F1C0585EC0049B443 /* ActivityModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033010E1C0585EC0049B443 /* ActivityModelTests.swift */; };
+		003301111C0892EE0049B443 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003301101C0892EE0049B443 /* Bolts.framework */; };
+		003301131C0893080049B443 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003301121C0893080049B443 /* Parse.framework */; };
 		601295D51C001ACD006994A9 /* ClassroomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295D41C001ACD006994A9 /* ClassroomManager.swift */; };
 		601295D91C001AEE006994A9 /* TeacherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295D81C001AEE006994A9 /* TeacherManager.swift */; };
 		601295DB1C002493006994A9 /* KidManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601295DA1C002493006994A9 /* KidManager.swift */; };
@@ -34,8 +36,6 @@
 		60506EC21BFFC1780026093B /* ClassroomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC11BFFC1780026093B /* ClassroomListViewController.swift */; };
 		60506EC71BFFD59C0026093B /* TeacherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC61BFFD59C0026093B /* TeacherTableViewCell.swift */; };
 		60506EC91BFFDB470026093B /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60506EC81BFFDB470026093B /* TeacherListViewController.swift */; };
-		60FFAF2D1C0118EE002305E9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF2C1C0118EE002305E9 /* Parse.framework */; };
-		60FFAF2F1C011922002305E9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF2E1C011922002305E9 /* Bolts.framework */; };
 		60FFAF311C011A1D002305E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF301C011A1D002305E9 /* AudioToolbox.framework */; };
 		60FFAF331C011A28002305E9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF321C011A28002305E9 /* CFNetwork.framework */; };
 		60FFAF351C011A34002305E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FFAF341C011A34002305E9 /* CoreGraphics.framework */; };
@@ -66,14 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003301001C0583EC0049B443 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		003301011C0583EC0049B443 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		003301041C0584AF0049B443 /* ActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
 		003301061C0584EE0049B443 /* AttendanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceManager.swift; sourceTree = "<group>"; };
 		003301081C0584F60049B443 /* Attendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
 		0033010A1C0585090049B443 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		0033010C1C0585E50049B443 /* AttendanceModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceModelTests.swift; sourceTree = "<group>"; };
 		0033010E1C0585EC0049B443 /* ActivityModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityModelTests.swift; sourceTree = "<group>"; };
+		003301101C0892EE0049B443 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		003301121C0893080049B443 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		601295D41C001ACD006994A9 /* ClassroomManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomManager.swift; sourceTree = "<group>"; };
 		601295D81C001AEE006994A9 /* TeacherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherManager.swift; sourceTree = "<group>"; };
 		601295DA1C002493006994A9 /* KidManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidManager.swift; sourceTree = "<group>"; };
@@ -99,8 +99,6 @@
 		60506EC11BFFC1780026093B /* ClassroomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomListViewController.swift; sourceTree = "<group>"; };
 		60506EC61BFFD59C0026093B /* TeacherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherTableViewCell.swift; sourceTree = "<group>"; };
 		60506EC81BFFDB470026093B /* TeacherListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherListViewController.swift; sourceTree = "<group>"; };
-		60FFAF2C1C0118EE002305E9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		60FFAF2E1C011922002305E9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		60FFAF301C011A1D002305E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		60FFAF321C011A28002305E9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		60FFAF341C011A34002305E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,14 +122,12 @@
 				60FFAF3D1C011A8C002305E9 /* StoreKit.framework in Frameworks */,
 				60FFAF3B1C011A87002305E9 /* Security.framework in Frameworks */,
 				60FFAF391C011A7F002305E9 /* QuartzCore.framework in Frameworks */,
+				003301131C0893080049B443 /* Parse.framework in Frameworks */,
 				60FFAF371C011A3D002305E9 /* CoreLocation.framework in Frameworks */,
-				003301021C0583EC0049B443 /* Bolts.framework in Frameworks */,
+				003301111C0892EE0049B443 /* Bolts.framework in Frameworks */,
 				60FFAF351C011A34002305E9 /* CoreGraphics.framework in Frameworks */,
 				60FFAF331C011A28002305E9 /* CFNetwork.framework in Frameworks */,
-				003301031C0583EC0049B443 /* Parse.framework in Frameworks */,
 				60FFAF311C011A1D002305E9 /* AudioToolbox.framework in Frameworks */,
-				60FFAF2D1C0118EE002305E9 /* Parse.framework in Frameworks */,
-				60FFAF2F1C011922002305E9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,8 +237,6 @@
 		60FFAF441C011BEC002305E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				003301001C0583EC0049B443 /* Bolts.framework */,
-				003301011C0583EC0049B443 /* Parse.framework */,
 				60FFAF401C011AA6002305E9 /* libz.tbd */,
 				60FFAF421C011AB3002305E9 /* libsqlite3.tbd */,
 				60FFAF3E1C011A99002305E9 /* SystemConfiguration.framework */,
@@ -253,8 +247,8 @@
 				60FFAF341C011A34002305E9 /* CoreGraphics.framework */,
 				60FFAF321C011A28002305E9 /* CFNetwork.framework */,
 				60FFAF301C011A1D002305E9 /* AudioToolbox.framework */,
-				60FFAF2E1C011922002305E9 /* Bolts.framework */,
-				60FFAF2C1C0118EE002305E9 /* Parse.framework */,
+				003301101C0892EE0049B443 /* Bolts.framework */,
+				003301121C0893080049B443 /* Parse.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
